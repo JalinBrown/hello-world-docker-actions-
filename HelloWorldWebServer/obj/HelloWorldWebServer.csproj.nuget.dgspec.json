@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\Week 2\\HelloWorldWebServer\\HelloWorldWebServer.csproj": {}
+    "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\redo\\HelloWorldWebServer\\hello-world-docker-actions-\\HelloWorldWebServer\\HelloWorldWebServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\Week 2\\HelloWorldWebServer\\HelloWorldWebServer.csproj": {
+    "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\redo\\HelloWorldWebServer\\hello-world-docker-actions-\\HelloWorldWebServer\\HelloWorldWebServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\Week 2\\HelloWorldWebServer\\HelloWorldWebServer.csproj",
+        "projectUniqueName": "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\redo\\HelloWorldWebServer\\hello-world-docker-actions-\\HelloWorldWebServer\\HelloWorldWebServer.csproj",
         "projectName": "HelloWorldWebServer",
-        "projectPath": "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\Week 2\\HelloWorldWebServer\\HelloWorldWebServer.csproj",
+        "projectPath": "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\redo\\HelloWorldWebServer\\hello-world-docker-actions-\\HelloWorldWebServer\\HelloWorldWebServer.csproj",
         "packagesPath": "C:\\Users\\jalin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\Week 2\\HelloWorldWebServer\\obj\\",
+        "outputPath": "C:\\Users\\jalin\\Documents\\Fall 2025\\cs399\\redo\\HelloWorldWebServer\\hello-world-docker-actions-\\HelloWorldWebServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            },
+            "OpenTelemetry.Api": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
